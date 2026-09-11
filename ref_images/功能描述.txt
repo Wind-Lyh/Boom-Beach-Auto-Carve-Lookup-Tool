@@ -1,0 +1,2 @@
+总体流程是这样：
+启动游戏->“断网”->识别sculpture->点击“start”->进入sculpture主页面->识别sculpture-exploration并点击“研究”按钮->{识别exploration-start1/2/3/4（另外几个暂缺后续补上）->识别exploration-accelerate点击“加速”->到加速页面，识别acceleration点击->识别accelerate-check点击（确认加速）->到达exploration-result界面->识别文字（文字较多，但我们需要的只有固定位置的文字，存在一个文字组，使得每次出现的文字属于该有限组）并按格式写入txt文件中保存->}重复{}内x次（由用户指定）->退出游戏，恢复网络重复步骤。整体循环4次，分别对应exploration-start1/2/3/4。并且每次结果保存在同一文件中。
