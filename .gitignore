@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 .mypy_cache
+records/
 outputs/*.png
 _debug/screenshots/*.png
 _debug/screenshots/run_debug/*.png
