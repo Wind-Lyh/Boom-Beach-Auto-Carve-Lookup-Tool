@@ -68,13 +68,13 @@ DEBUG_KEEP_DAYS = 3
 # ---- 神龛(shrine)流程：开弱网之后、进雕塑入口之前的一系列固定操作 ----
 SHRINE_FLOW_ENABLED = True
 # 每一步之后的等待秒数
-SHRINE_STEP_DELAY = 0.3
+SHRINE_STEP_DELAY = 0.2
 # 一开始依次点击的三个固定点位
 SHRINE_OPEN_POINTS = [(47, 48), (130, 190), (700, 140)]
 # 滑动：坐标固定，时长留空待调试
 SHRINE_SWIPE_START = (840, 360)
 SHRINE_SWIPE_END = (400, 360)
-SHRINE_SWIPE_TIMES = 2
+SHRINE_SWIPE_TIMES = 1
 # 留空待调试：None 表示不指定时长（改用库默认手势时长），需要时改成毫秒整数
 SHRINE_SWIPE_DURATION_MS: int = 50
 SHRINE_SWIPE_GAP = 0.2  # 两次滑动之间的间隔，待调试
@@ -86,14 +86,14 @@ SHRINE_POINT = (607, 585)
 # 神龛-start 坐标：同样是手动设置，不再靠偏移/识别推算
 SHRINE_START_POINT = (637, 655)
 # 神龛流程里单次点击后的通用等待（秒）
-SHRINE_TAP_DELAY = 0.3
+SHRINE_TAP_DELAY = 0.2
 SHRINE_TAP_CENTER = (380, 360)
 # 卡位 x = 180 + 150 * i（i 为整体轮次 1~4）
 SHRINE_CARD_X_BASE = 180
 SHRINE_CARD_X_STEP = 150
 SHRINE_CARD_Y = 140
 SHRINE_TAP_LAST = (900, 460)
-SHRINE_TAP_LAST_DELAY = 0.5
+SHRINE_TAP_LAST_DELAY = 0.3
 # 点完 (900, 460) 之后再点一下的位置
 SHRINE_TAP_AFTER_LAST = (739, 460)
 
